@@ -1,0 +1,18 @@
+[package]
+name = "quicklinkmate"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+actix-web = "4.5.1"
+bitcoin-base58 = "0.1.16-alpha.0"
+chrono = "0.4.33"
+derive = "1.0.0"
+redis = "0.24.0"
+serde = { version = "1.0.196", features = ["derive", "serde_derive"] }
+serde_derive = "1.0.196"
+openssl = { version = "0.10.45", features = ["vendored"] }
+rustls = "0.22.2"
+openssl-sys = { version = "0.9.99", features = ["vendored"] }
